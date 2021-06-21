@@ -21,3 +21,4 @@ add_executable (bison-bug
 target_include_directories (bison-bug
     PUBLIC $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>
     PUBLIC $<BUILD_INTERFACE:${PROJECT_BINARY_DIR}/include>)
+
